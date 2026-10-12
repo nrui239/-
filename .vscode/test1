@@ -1,0 +1,10 @@
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def index():
+    return "<h1>VSCode运行的Python网页</h1>"
+"<h2>无神恋爱的雪国</h2>"
+
+if __name__ == "__main__":
+    app.run()
